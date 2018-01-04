@@ -1,0 +1,96 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+}
+body {
+	margin: 0;
+	font-family: 'Prata', sans-serif;
+}
+header{
+	display: flex;
+	justify-content: center;
+	align-items: strech;
+	height: 100vh;
+	width: 100vw;
+	margin: 0 auto;
+}
+.blue{
+	background: blue;
+	color: #ffffff ;
+	flex-basis: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.mint{
+	background: #48cfad;
+	color: #048b68;
+	flex-basis: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.pink{
+	background: pink ;
+	color: red;
+	flex-basis: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.tekst{
+	margin-left: 3vw;
+	margin-bottom: 5vh;
+	margin-right: 2vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	font-size: 1.4rem;
+}
+.tekst h1{
+	margin-top: auto;
+	margin-bottom: 0;
+	font-size: 13.0rem;
+	text-decoration: underline;;
+	line-height: 120%;
+	font-weight: 100;
+}
+
+.tekst p{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Inconsolata', monospace;
+
+}
+
+.blue .tekst{
+	background: url('assets/h.svg') bottom left no-repeat;
+	height: 50vh;
+	padding-left: 35%;
+}
+.mint .tekst{
+	background: url('assets/d.svg') bottom left no-repeat;
+	height: 30vh;
+}
+.pink .tekst{
+	background: url('assets/p.svg') bottom left no-repeat;
+	height: 30vh;
+}
+
+nav{
+	margin-bottom: auto;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+nav ul li {
+	padding: 0 10px;
+	font-size: 1.6rem;
+	color: #48cfad;
+}
